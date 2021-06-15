@@ -2,7 +2,6 @@ import pygame
 from joblib import dump, load
 from sklearn.neural_network import MLPClassifier
 
-
 ar = []
 X_train = load('X_train.joblib')
 y_train = load('y_train.joblib') 
